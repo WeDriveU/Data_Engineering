@@ -41,3 +41,7 @@ models:
     example:
       +materialized: table
 
+# Make sure that the column names can be properly logged in snowflake
+seeds:
+  wedriveu_analytics:
+    +quote_columns: true
